@@ -69,7 +69,7 @@
     visibility: visible;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .get-to-top {
         width: 40px;
         height: 40px;
@@ -112,7 +112,7 @@
     outline-offset: 4px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .slides {
         right: 2rem;
     }
@@ -169,7 +169,7 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .scroll-down-btn .mouse {
         font-size: 2.3rem;
     }
@@ -202,11 +202,11 @@ body {
 }
 
 .container {
-    padding: 0 var(--container-lg);
+    margin: 0 var(--container-lg);
 }
 
 .container-fluid {
-    padding: 0 var(--container-fluid-lg);
+    margin: 0 var(--container-fluid-lg);
 }
 
 @media (max-width: 576px) {
@@ -291,7 +291,7 @@ body {
     border: 2px solid var(--gray);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .btn {
         font-size: var(--text-sm);
         padding: 0.5rem 2rem;
@@ -422,7 +422,7 @@ body {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .header.nav-white {
         color: var(--white) !important;
     }
@@ -560,7 +560,7 @@ body {
     font-size: var(--text-md);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .overlay h2 {
         font-size: 2.3rem;
         width: 50%;
@@ -674,7 +674,7 @@ body {
     color: #767676;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .business {
         margin: 0 2rem;
     }
@@ -741,7 +741,7 @@ body {
     object-fit: contain;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .language {
         gap: 50px;
     }
@@ -820,7 +820,7 @@ body {
     margin-top: 20px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .content__title {
         grid-column: span 2 / span 2;
         text-align: center;
@@ -933,8 +933,9 @@ body {
     flex-direction: column;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .faq {
+        pad: ;
         margin: 0 2rem;
     }
 
@@ -960,7 +961,6 @@ body {
         width: 100%;
         grid-column: span 2 / span 2;
         grid-row: span 1 / span 1;
-        background-color: red;
         padding: 0 0.5rem;
     }
 
@@ -968,7 +968,7 @@ body {
     .faq__box:nth-of-type(4) p,
     .faq__box:nth-of-type(5) p {
         font-size: var(--text-sm);
-        background-color: blue;
+
     }
 
     .faq__box:nth-of-type(3) {
@@ -1034,7 +1034,7 @@ body {
     margin: 10px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 	768px) {
     .footer {
         padding: 100px 2rem;
     }

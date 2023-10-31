@@ -1,0 +1,26 @@
+.card-shadow {
+    @apply relative before:content-[""] before:w-full  before:h-full before:bg-black/50 before:text-white before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0;
+}
+
+.title {
+    @apply text-black mb-[50px];
+}
+.title h2 {
+    @apply text-[2.3rem] font-black  m-0;
+}
+.title p {
+    @apply text-[1.1rem] text-[#767676] m-[10px];
+}
+
+.container {
+    @apply w-full px-32 md:px-10;
+}
+.container-fuild {
+    @apply w-full px-16 md:px-5;
+}
+
+.tagobg {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("./assets/tagoplus-bg.png");
+    @apply bg-no-repeat bg-cover bg-center;
+}
